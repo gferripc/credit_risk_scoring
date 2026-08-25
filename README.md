@@ -61,15 +61,15 @@ The final XGBoost probabilities were transformed into an odds-based credit score
 The odds of non-default are defined as:
 
 $$
-\text{Odds} = \frac{1-PD}{PD}
+\text{Odds(PD)} = \frac{1-PD}{PD}
 $$
 
 and the score as:
 
 $$
-\text{Score} =
+\text{Score(PD)} =
 \text{Offset} +
-\text{Factor}\ln(\text{Odds})
+\text{Factor}\ln(\text{Odds(PD})
 $$
 
 The score was configured with:
