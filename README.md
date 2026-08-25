@@ -69,7 +69,7 @@ and the score as:
 $$
 \text{Score(PD)} =
 \text{Offset} +
-\text{Factor . }\ln(\text{Odds(PD)})
+\text{Factor} \cdot \ln(\text{Odds(PD)})
 $$
 
 The score was configured with:
